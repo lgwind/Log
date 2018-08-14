@@ -1,0 +1,51 @@
+#calendar{
+	position: absolute;
+	left: 2%;
+	top: 30%;
+}
+#calendar td{
+	color:#888;
+	font: 500 14px 'roboto';
+	width: 40px;
+	height: 40px;
+	text-align:center;
+	cursor:pointer;
+}
+#calendar td:hover{
+	background-color:#c9c9c9;	
+	border-radius: 20px;
+}
+
+#calendar .year-month td{
+	padding-left:12px;
+	font-size: 24px;
+	text-align:left;
+}
+#calendar .year-month td:hover{
+	background-color:#d9b3b3;
+	color:#ffffff;
+}
+#calendar .year-month .week{
+	padding-left:0px;
+	text-align:center;
+}
+
+#calendar .week td{
+	cursor:default;
+}
+#calendar .week td:hover{
+	background-color:#E6E6FA;
+}
+
+#checkName{
+	min-width:50px;
+	width:220px;
+	border:none;
+	background-color:#E6E6FA; 
+}
+
+/* 去除链接样式 */
+a:link { text-decoration: none;color: #888}
+a:active { text-decoration:blink;color: #red}
+a:hover { text-decoration: none;color: #red}
+a:visited { text-decoration: none;color: #888}

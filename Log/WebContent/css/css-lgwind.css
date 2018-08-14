@@ -1,0 +1,120 @@
+/** 
+ * 整体css样式表
+ * lgwind
+ **/
+ 
+/* body统一样式 */
+body {
+	background-color: #E6E6FA;
+}
+
+/* 登录div的样式  */
+.login-div-lgwind {
+	width: 340px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:-100px; 
+	margin-left:-170px;
+/* 	border:2px solid #FF6347; */
+/* 	background-color: #FF6347; */
+	text-align:center;
+	padding-top:20px;
+	padding-left:20px;	
+	color:#4F4F4F;
+}
+
+/* 作者信息样式 */
+.author-div-lgwind {
+	width: 320px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:100px; 
+	margin-left:-0px;
+/* 	border:2px solid #FF6347; */
+/* 	background-color: #FF6347; */
+	text-align:left;
+	padding-top:20px;
+	padding-left:20px;	
+	color:#8A8A8A;
+	font-size:12px;
+}
+.author-div-lgwind th{	
+	text-align:right;
+}
+
+
+/* 标题栏属性 */
+.title-div-lgwind{
+	background-color: #B9D3EE;
+	border-radius: 0px;
+	border:1px solid #97bde3;
+	width: 1000px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin-left:-500px;
+}
+
+/* 主体部分样式 */
+.body-div-lgwind{
+	background-color: #c8dcf0;
+	border-radius: 0px;
+	width: 1000px;
+	height: 89%;
+	border:1px solid #97bde3;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	margin-left:-500px;
+}
+
+/* input样式 */
+.input-lgwind {
+	border: 1px solid #ccc;
+	padding: 7px 10px;
+	border-radius: 5px;
+	float: left;
+	min-width:200px;
+}
+
+/* input-submit样式 */
+.submit-lgwind {
+	border: 1px solid #ccc;
+	padding: 7px 10px 9px 10px;/*上右下左*/
+	border-radius: 5px;
+	float: left;
+	min-width:200px;
+	background-color: #1E90FF;
+	color:#ffffff;
+	font-size:16px;
+}
+
+/*checkbox文字设置*/
+.checkbox-text-lgwind {
+	font-size:14px;
+	color:#4F4F4F;
+	float: left;
+}
+
+/* 遮罩div */
+.mask-lgwind{
+	background-color: #4F4F4F;
+	width: 100%;
+	height: 100%;
+/* 	border:2px solid #FF6347; */
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	opacity:0.8; /* 设置透明度 */
+	display:none;/* 设置不显示 */
+}
+
+/* 红色字体 */
+.red-font-lgwind{
+	color:#EE3B3B;
+}

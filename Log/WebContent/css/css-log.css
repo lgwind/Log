@@ -1,0 +1,113 @@
+#addlog{
+	position: absolute;
+	left: 88%;
+	top: 1%;
+/* 	border:2px solid #FF6347; */
+	width:40px;
+	height:40px;
+	text-align:center;
+	font-size:27px;
+	border-radius:20px;
+	background-color:#0080ff;
+	color:#ffffff;
+	cursor:pointer;
+}
+#addlog:hover{
+	left: 77.5%;
+	width:120px;
+	font-size:20px;
+	padding-top:8px;
+}
+
+#log{
+	position: absolute;
+	left: 0.9%;
+	top: 0%;
+/* 	border:2px solid #FF6347; */
+	width:98.4%;
+	height:100%;
+	overflow:scroll;
+	overflow-x:hidden;
+/* 	background-color:#ffffff; */
+}
+
+.log-item{
+	background-color:#f4f9ff;
+	border-radius: 0px;
+	margin-top:0.8%;
+	margin-bottom:0.8%;
+	width:100%;
+	cursor:pointer;
+}
+.log-title{
+	padding-left:8%;
+	padding-top:2.2%;
+	font-size: 22px;
+	font-family: "微软雅黑";
+	width:100%;
+}
+.log-name{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#737373;
+	width:100%;
+}
+.log-content{
+/* 	border:2px solid #FF6347; */
+/* 	float:top; */
+	margin-top:2%;
+	padding-left:8%;
+	padding-right:8%;
+	padding-bottom:3%;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color:#737373;
+	word-wrap: break-word;
+}
+
+/* 添加日志div */
+#addlogPage{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:86%;
+	height:400px;
+	left: 3%;
+	top: 50%;
+	margin-top:-200px;
+	padding-left:8%;
+	text-align:left;
+	display:none;
+}
+#addlogPage h3{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:3.5px;
+}
+#addlogPage .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 92%;
+	top: 5%;
+	cursor:pointer;
+}
+
+.mask-lgwind{
+	opacity:0.6; /* 设置透明度 */
+}
+
+#log-input-title{
+	width:400px;
+	border-radius:5px 0px 0px 5px;
+}
+#log-input-name{
+	min-width:100px;
+	width:142px;
+	border-radius:0px 5px 5px 0px;
+}
+
+.update-log{
+	padding-left:6%;
+	padding-top:2.2%;
+	padding-bottom:3%;
+}
